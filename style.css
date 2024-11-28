@@ -1,0 +1,258 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #2c3e50;
+  padding: 1rem;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav .nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+nav .nav-links li {
+  margin: 0 1rem;
+}
+
+nav .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('pngtree-coffee-beans-leaves-beans-background-image_2177928.jpg') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  padding: 0.8rem 2rem;
+  background-color: #e67e22;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.hero .btn:hover {
+  background-color: #d35400;
+}
+
+/* Menu Section */
+.menu {
+  background-color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu-item {
+  width: 200px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.menu-item p {
+  font-size: 1rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #e67e22;
+}
+
+/* About Section */
+.about {
+  background-color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact Section */
+.contact {
+  background-color: white;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.icon-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.icon-item{
+  font-size: 24px;
+  text-align: center;
+  width: 80px;
+  padding:  0px 660px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f2e7;
+    color: #4a3d29;
+}
+
+.contact-form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-form-container h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #4a3d29;
+}
+
+.contact-form-container p {
+    margin-bottom: 20px;
+    color: #6e5b45;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-size: 14px;
+    color: #6e5b45;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcd3c2;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #4a3d29;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #b29472;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #b29472;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a68062;
+}
